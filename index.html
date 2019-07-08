@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 	<html>
+	<head>
+		<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+	</head>
 		<body>
 			<center><h1>MapCTF</h1></center>
-			<img src="world.svg" alt="World Map">
+			<div class="imgbox">
+				<img class="center-fit" src="world.svg" alt="World Map">
+			</div>
 		</body>
 	</html>
