@@ -12,3 +12,29 @@
     max-height: 100vh;
     margin: auto;
 }
+
+.user {
+    padding-right: 10px;
+    color: black;
+}
+
+.login {
+    padding-right: 10px;
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: #171717;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: dotted;
+}
