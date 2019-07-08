@@ -39,3 +39,7 @@ body {
     border-bottom-style: dotted;
 }
 
+#US:hover{
+    cursor: pointer;
+    fill: #505050;
+}
