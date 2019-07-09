@@ -64,3 +64,30 @@ body {
     cursor: pointer;
     fill: #505050;
 }
+
+.swal-modal {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.swal-title {
+  margin: 0px;
+  font-size: 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+  color: red;
+}
+
+.swal-text {
+  color: white;
+  text-align: center;
+}
+
+.swal-button {
+    color: white;
+  border-radius: 2px;
+  background-color: black;
+  font-size: 15px;
+  border: 2px solid white;
+  text-shadow: 0px -1px 0px black;
+}

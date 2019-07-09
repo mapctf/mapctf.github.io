@@ -274,20 +274,34 @@
 
 <script>
 function myFunction() {
-  swal("A wild Pikachu appeared! What do you want to do?", {
+  swal("United States of America", "Which Path Will You Choose?", {
     buttons: {
-      cancel: "Run away!",
-      catch: {
-        text: "Throw Pokéball!",
-        value: "catch",
+      choice1: {
+        text: "Donald Trump Wins 2020 Election",
+        value: "choice1",
       },
-      defeat: true,
+      choice2: {
+        text: "Impeach Donald Trump",
+        value: "choice2",
+      },
+      choice3: {
+        text: "Kanye Wins 2020 Election",
+        value: "choice3",
+      },
+      cancel: "Exit",
     },
-  })
+})
   .then((value) => {
     switch (value) {
    
-      case "defeat":
+      case "choice1":
+        swal("Pikachu fainted! You gained 500 XP!");
+        break;
+      case "choice2":
+        swal("Pikachu fainted! You gained 500 XP!");
+        break;
+
+      case "choice3":
         swal("Pikachu fainted! You gained 500 XP!");
         break;
    
@@ -296,18 +310,9 @@ function myFunction() {
         break;
    
       default:
-        swal("Got away safely!");
+        // swal("Got away safely!");
     }
   });
-
-  
-//   swal({
-//     title: "United States of America",
-//     text: "Which Path Will You Choose?",
-//     icon: "info",
-//     // buttons: ["Oh noez!", "Aww yiss!"],
-//     buttons: ["Donald Trump Wins 2020 Election", "Impeach Donald Trump"],
-// });
 }
 </script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
