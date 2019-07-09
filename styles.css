@@ -54,16 +54,3 @@ body {
     cursor: pointer;
     fill: #505050;
 }
-
-#usaWelcome {
-    padding-top: 33px;
-}
-
-#usaSub {
-    padding-top: 13px;
-    padding-bottom: 49px;
-}
-
-.list-group-item {
-    padding-bottom: 26px;
-}
