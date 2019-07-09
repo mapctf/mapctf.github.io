@@ -1,0 +1,32 @@
+body {
+    background-color: #171717;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    color:white;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+#usaWelcome {
+    padding-top: 33px;
+}
+
+#usaSub {
+    padding-top: 13px;
+    padding-bottom: 49px;
+}
+
+.list-group-item {
+    padding-bottom: 26px;
+}
