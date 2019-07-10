@@ -275,20 +275,21 @@
 <script>
 function myFunction() {
   swal("United States of America", "Which Path Will You Choose?", {
+    icon: "info",
     buttons: {
       choice1: {
-        text: "Trump 2020",
-        value: "choice1",
-      },
-      choice2: {
         text: "Impeach Trump",
         value: "choice2",
       },
+      choice2: {
+        text: "Trump 2020",
+        value: "choice1",
+      }, 
       choice3: {
         text: "Kanye 2020",
         value: "choice3",
       },
-      cancel: "X",
+      // cancel: "X",
     },
 })
   .then((value) => {
@@ -308,9 +309,6 @@ function myFunction() {
       case "catch":
         swal("Gotcha!", "Pikachu was caught!", "success");
         break;
-   
-      default:
-        // swal("Got away safely!");
     }
   });
 }
