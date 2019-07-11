@@ -9,9 +9,8 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
-      <a class="navbar-brand" href="#">
-    <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
-    <!-- <font size="+3">mapCTF</font> -->
+      <a class="navbar-brand" href="index.html">
+    <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="mapCTF Logo">
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -19,22 +18,17 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="index.html">Make Alliances Project CTF <span class="sr-only">(current)</span></a>
+      </li> -->
+      <li>    <span class="navbar-text" id="topText">
+    MakeAlliancesProjectCTF
+  </span></li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/mapctf/mapctf.github.io">Follow our Project</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="guides.html">Guides and Documentation</a>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -279,11 +273,11 @@ function myFunction() {
     buttons: {
       choice1: {
         text: "Impeach Trump",
-        value: "choice2",
+        value: "choice1",
       },
       choice2: {
         text: "Trump 2020",
-        value: "choice1",
+        value: "choice2",
       }, 
       choice3: {
         text: "Kanye West 2020",
@@ -296,18 +290,21 @@ function myFunction() {
     switch (value) {
    
       case "choice1":
-        swal("Pikachu fainted! You gained 500 XP!");
+        window.open("impeachTrump.html", "_self")
         break;
       case "choice2":
         swal("Pikachu fainted! You gained 500 XP!");
+        window.open("usaProblemSet.html", "_self")
         break;
 
       case "choice3":
         swal("Pikachu fainted! You gained 500 XP!");
+        window.open("usaProblemSet.html", "_self")
         break;
    
       case "catch":
         swal("Gotcha!", "Pikachu was caught!", "success");
+        window.open("usaProblemSet.html", "_self")
         break;
     }
   });
