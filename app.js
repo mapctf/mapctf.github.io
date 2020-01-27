@@ -10,4 +10,20 @@
     measurementId: "G-Y5W2SPFFP4"
   };
 firebase.initializeApp(firebaseConfig);
+
+const txtEmail = document.getElementById('txtEmail');
+const txtPassword = document.getElementById('txtPassword');
+const btnLogin = document.getElementById('btnLogin');
+const btnSignUp = document.getElementById('btnSignUp');
+const btnLogout = document.getElementById('btnLogout');
+
+btnLogin.addEventListener('click', e => {
+  const Email = txtEmail.value;
+  const Password = txtPassword.value;
+  const auth = firebase.auth();
+
+  const promise = auth.signInWithEmailAndPassword(Email, Password);
+  promise.catch(e => console.log(e.message));
+});
+
 }());
