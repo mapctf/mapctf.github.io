@@ -1,45 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login to your account</title>
-	<script src="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.js"></script>
-	<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.css" />
+	<title>Login</title>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
 </head>
 <body>
 
+	<div class="container">
+		<input type="email" id="txtEmail" placeholder="Email">
+		<input type="password" id="txtPassword" placeholder="Password">
+		<button id="btnLogin" class="btn btn-action"> Log In </button>
+		<button id="btnSignUp" class="btn btn-secondary"> Sign Up </button>
+		<button id="btnLogout" class="btn btn-action hide"> Log Out </button>
+	</div>
 
-</script>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.7.0/firebase.js"></script>
-<script src="/__/firebase/init.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCFfDOmsS1qGr4NsJXfhYD-5_SISXHm6Y0",
-    authDomain: "mapctf-c677b.firebaseapp.com",
-    databaseURL: "https://mapctf-c677b.firebaseio.com",
-    projectId: "mapctf-c677b",
-    storageBucket: "mapctf-c677b.appspot.com",
-    messagingSenderId: "372501642763",
-    appId: "1:372501642763:web:90a860ae080b86f52c510e",
-    measurementId: "G-Y5W2SPFFP4"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-
-<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-<link
-	type="text/css"
-	rel="stylesheet"
-	href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
-/>    
-<script src="./auth.js"></script>
 </body>
 </html>
