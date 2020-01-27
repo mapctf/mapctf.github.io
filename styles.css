@@ -40,11 +40,6 @@ body {
     border-bottom-style: dotted;
 }
 
-#US:hover{
-    cursor: pointer;
-    fill: #505050;
-}
-
 #US:hover .button {
     display: block;
     position: absolute;
@@ -55,40 +50,846 @@ body {
     text-align: center;
 }
 
-#CA:hover{
-    cursor: pointer;
-    fill: #505050;
+#AF:hover{
+	cursor: pointer;
+	fill: #505050;
 }
-
-#MX:hover{
-    cursor: pointer;
-    fill: #505050;
+#AO:hover{
+	cursor: pointer;
+	fill: #505050;
 }
-
-#RU:hover{
-    cursor: pointer;
-    fill: #505050;
+#AL:hover{
+	cursor: pointer;
+	fill: #505050;
 }
-
-#ID:hover{
-    cursor: pointer;
-    fill: #505050;
+#AE:hover{
+	cursor: pointer;
+	fill: #505050;
 }
-
+#AR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
 #AU:hover{
-    cursor: pointer;
-    fill: #505050;
- }
-
- #CN:hover{
-    cursor: pointer;
-    fill: #505050;
- }
-
- #IN:hover{
-    cursor: pointer;
-    fill: #505050;
- }
+	cursor: pointer;
+	fill: #505050;
+}
+#AT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BJ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BF:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CF:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DJ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#EC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#EG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ER:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#EE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ET:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#FI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GB:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GQ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#HN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#HR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#HT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#HU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ID:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IQ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#JM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#JO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#JP:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LB:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LV:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MX:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ML:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ME:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NP:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#OM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KP:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#QA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#RO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#RU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#RW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#EH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SV:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#RS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TH:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TJ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TL:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#UG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#UA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#UY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#US:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#UZ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#YE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ZA:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ZM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ZW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GF:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#FR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ES:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#AG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#BB:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CV:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#DM:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#FK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#FO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GD:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#HK:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#KN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#LI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MV:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MS:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MU:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#NR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PN:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PR:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#PF:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SB:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#ST:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SX:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#SC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TO:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#TT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VG:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#VI:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CY:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#RE:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#YT:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#MQ:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#GP:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#CW:hover{
+	cursor: pointer;
+	fill: #505050;
+}
+#IC:hover{
+	cursor: pointer;
+	fill: #505050;
+}
 
 .swal-modal {
   background-color: rgba(0,0,0,0.3);
