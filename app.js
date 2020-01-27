@@ -35,4 +35,12 @@ btnSignUp.addEventListener('click', e => {
   promise.catch(e => console.log(e.message));
 });
 
+firebase.auth().onAuthStateChanged(firebaseUser => {
+  if(firebaseUser) {
+    console.log(firebaseUser);
+  } else {
+    console.log('not logged in');
+  }
+});
+
 }());
