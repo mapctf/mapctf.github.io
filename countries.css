@@ -37,7 +37,12 @@ body {
     fill: #505050;
 }
 
-#AU#CN:hover{
+#AU:hover{
+    cursor: pointer;
+    fill: #505050;
+ }
+
+ #CN:hover{
     cursor: pointer;
     fill: #505050;
  }
