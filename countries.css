@@ -27,6 +27,22 @@ body {
     padding-bottom: 49px;
 }
 
+#RU:hover{
+    cursor: pointer;
+    fill: #505050;
+}
+
+#ID:hover{
+    cursor: pointer;
+    fill: #505050;
+}
+
+#AU:hover{
+    cursor: pointer;
+    fill: #505050;
+
+ }
+
 .list-group-item {
     padding-bottom: 26px;
 }
