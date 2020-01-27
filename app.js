@@ -31,7 +31,7 @@ btnSignUp.addEventListener('click', e => {
   const Password = txtPassword.value;
   const auth = firebase.auth();
 
-  const promise = createUserWithEmailAndPassword(Email, Password);
+  const promise = auth.createUserWithEmailAndPassword(Email, Password);
   promise.catch(e => console.log(e.message));
 });
 
@@ -41,6 +41,10 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
   } else {
     console.log('not logged in');
   }
+});
+
+btnLogout.addEventListener('click', e => {
+  firebase.auth().signOut();
 });
 
 }());
