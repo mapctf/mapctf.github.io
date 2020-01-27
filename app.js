@@ -26,4 +26,13 @@ btnLogin.addEventListener('click', e => {
   promise.catch(e => console.log(e.message));
 });
 
+btnSignUp.addEventListener('click', e => {
+  const Email = txtEmail.value;
+  const Password = txtPassword.value;
+  const auth = firebase.auth();
+
+  const promise = createUserWithEmailAndPassword(Email, Password);
+  promise.catch(e => console.log(e.message));
+});
+
 }());
