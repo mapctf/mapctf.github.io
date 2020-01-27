@@ -37,10 +37,9 @@ body {
     fill: #505050;
 }
 
-#AU:hover{
+#AU#CN:hover{
     cursor: pointer;
     fill: #505050;
-
  }
 
 .list-group-item {

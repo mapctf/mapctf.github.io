@@ -65,21 +65,6 @@ body {
     fill: #505050;
 }
 
-#RU:hover{
-    cursor: pointer;
-    fill: #505050;
-}
-
-#ID:hover{
-    cursor: pointer;
-    fill: #505050;
-}
-
-#AU:hover{
-    cursor: pointer;
-    fill: #505050;
-}
-
 .swal-modal {
   background-color: rgba(0,0,0,0.3);
   border: 1px dotted white;
