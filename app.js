@@ -33,6 +33,8 @@ btnSignUp.addEventListener('click', e => {
 
   const promise = auth.createUserWithEmailAndPassword(Email, Password);
   promise.catch(e => console.log(e.message));
+  alert('Please check your email to verify your account.');
+  
 });
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
